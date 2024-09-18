@@ -1,4 +1,4 @@
-import { ListType } from 'src/products/entities/product.entity';
+import { ListType } from '../entities/product.entity';
 
 export class CreateProductDto {
   name: string;

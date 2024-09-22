@@ -10,7 +10,7 @@ datasource db {
 
 model Item {
   id    Int     @default(autoincrement()) @id
-  name  String  @db.VarChar(256)
+  name  String?  @db.VarChar(256)
   bought DateTime?
   location String @db.VarChar(256)
 
